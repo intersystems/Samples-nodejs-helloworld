@@ -1,0 +1,22 @@
+{
+  "name": "Samples_nodejs_helloworld",
+  "version": "1.0.0",
+  "description": "First, clone the repo. You will have two items:\r 1. `HelloWorld.js`: Sample Node.js file to connect to InterSystems\r 2. `intersystems-iris-native`: InterSystems module for NodeJS",
+  "main": "HelloWorld.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intersystems/Samples-nodejs-helloworld.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intersystems/Samples-nodejs-helloworld/issues"
+  },
+  "homepage": "https://github.com/intersystems/Samples-nodejs-helloworld#readme",
+  "dependencies": {
+    "intersystems-iris-native": "file:intersystems-iris-native"
+  }
+}
