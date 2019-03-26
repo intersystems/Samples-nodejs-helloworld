@@ -13,6 +13,6 @@ This is a simple hello world example to show a Node.js connection to InterSystem
 1. Clone this repo and open it in your favorite IDE (such as Visual Studio Code)
 2. Open Samples-nodejs-helloworld/HelloWorld.js 
 3. Verify the values for host, port, username, and password. Update as needed.
-4. In the integrated terminal window, navigate to your repository's home directory and type:
+4. In the integrated terminal window, navigate to your repository's home directory and type:  
 	`npm install intersystems-iris-native`  
 	`node HelloWorld.js`  
