@@ -10,4 +10,4 @@ const connection = irisnative.createConnection(
     {host:host, port:port, ns:namespace, user:username, pwd:password}
     )
 const iris = connection.createIris()
-console.log("Hello World! You have successfully connected to InterSystems IRIS via NodeJS.")
+console.log("Hello World! You have successfully connected to InterSystems IRIS via Node.js.")
