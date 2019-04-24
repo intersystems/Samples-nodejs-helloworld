@@ -2,8 +2,9 @@
 This is a simple hello world example to show a Node.js connection to InterSystems IRIS. 
 
 ## To run in InterSystems Learning Labs, AWS, GCP, or Azure
-1. Open Samples-nodejs-helloworld/HelloWorld.js   
-2. In the integrated terminal window, type:  
+1. Open Samples-nodejs-helloworld/HelloWorld.js
+2. For AWS, GCP, or Azure ONLY: Edit line 17 and change the value of ip to "try-iris" (Please skip this step if using InterSystems Learning Labs)   
+3. In the integrated terminal window, type:  
 	`cd /home/project/Samples-nodejs-helloworld`  
 	`npm install intersystems-iris-native`  
 	`node HelloWorld.js`  

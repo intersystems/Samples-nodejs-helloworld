@@ -1,3 +1,7 @@
+/*
+* PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
+*/
+
 const irisnative = require('intersystems-iris-native')
 
 var host = "localhost"
