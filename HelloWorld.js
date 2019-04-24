@@ -3,7 +3,7 @@ const irisnative = require('intersystems-iris-native')
 var host = "localhost"
 var port = 51773
 var namespace = "USER"
-var username = "SuperUSer"
+var username = "SuperUser"
 var password = "SYS"
 
 const connection = irisnative.createConnection(
