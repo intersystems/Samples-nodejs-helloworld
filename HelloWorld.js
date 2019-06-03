@@ -4,14 +4,26 @@
 
 const irisnative = require('intersystems-iris-native')
 
-var host = "localhost"
-var port = 51773
-var namespace = "USER"
-var username = "SuperUser"
-var password = "SYS"
+function main()
+{
+    // Retrieve connection information from configuration file
+    var ip = "localhost"
+    var port = 51773
+    var namespace = "USER"
+    var username = "SuperUser"
+    var password = "SYS"
 
-const connection = irisnative.createConnection(
-    {host:host, port:port, ns:namespace, user:username, pwd:password}
-    )
-const iris = connection.createIris()
-console.log("Hello World! You have successfully connected to InterSystems IRIS via Node.js.")
+    // Create connection to InterSystems IRIS
+    const connection = irisnative.createConnection({host: ip, port: port, ns: namespace, user: username, pwd: password})
+    
+    // Create InterSystems IRIS native object
+    const irisNative = connection.createIris()
+    console.log("Hello World! You have successfully connected to InterSystems IRIS via Node.js.")
+
+    // Store data natively into a global
+    irisNative.set(8888, "^testglobal", "1");
+    globalValue = irisNative.get("^testglobal", "1");
+    console.log("The value of ^testglobal(1) is " + globalValue);
+}
+
+main()
