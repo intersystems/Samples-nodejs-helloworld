@@ -1,12 +1,13 @@
 /*
-* PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
+PURPOSE: Makes a connection to an instance of InterSystems IRIS Data Platform.
+This example also stores data natively into your instance of InterSystems IRIS.
 */
 
 const irisnative = require('intersystems-iris-native')
 
 function main()
 {
-    // Retrieve connection information from configuration file
+    // Credentials to connect to InterSystems IRIS database
     var ip = "localhost"
     var port = 51773
     var namespace = "USER"
@@ -16,7 +17,7 @@ function main()
     // Create connection to InterSystems IRIS
     const connection = irisnative.createConnection({host: ip, port: port, ns: namespace, user: username, pwd: password})
     
-    // Create InterSystems IRIS native object
+    // Create an InterSystems IRIS native object
     const irisNative = connection.createIris()
     console.log("Hello World! You have successfully connected to InterSystems IRIS via Node.js.")
 
