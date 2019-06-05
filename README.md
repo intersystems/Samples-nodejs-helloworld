@@ -1,6 +1,6 @@
 # Samples-nodejs-helloworld
 
-This is a simple hello world example to show a Node.js connection to InterSystems IRIS. It stored data natively into your instance of InterSystems IRIS. 
+This is a simple hello world example to show a Node.js connection to InterSystems IRIS. It stores data natively into your instance of InterSystems IRIS. 
 
 
 ## Run the sample
@@ -11,7 +11,7 @@ In the integrated terminal window type:
 * `npm install intersystems-iris-native`
 * `node HelloWorld.js`
 
-From Management Portal, switch to USER namespace. Choose **System Explorer** > **Globals** to verify the `^testglobal` was created. 
+From the Management Portal, switch to the USER namespace. Choose **System Explorer** > **Globals** to verify the `^testglobal` was created. 
 
 
 ## Keep Exploring
