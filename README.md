@@ -1,6 +1,6 @@
 # Samples-nodejs-helloworld
 
-This is a simple hello world example to show a Node.js connection to InterSystems IRIS. It stores data natively into your instance of InterSystems IRIS. 
+This is a simple Hello World example to show a Node.js connection to InterSystems IRIS. It stores data natively into your instance of InterSystems IRIS. 
 
 
 ## Run the sample
