@@ -16,4 +16,4 @@ From the Management Portal, switch to the USER namespace. Choose **System Explor
 
 ## Keep Exploring
 
-* To see another example of Node.js and InterSystems IRIS, take a look at the [Node.js QuickStart](https://learning.intersystems.com/course/view.php?name=Node.js%20QS) example.
+* To see another example of Node.js and InterSystems IRIS, take a look at the [Node.js QuickStart](https://gettingstarted.intersystems.com/language-quickstarts/nodejs-quickstart/) example.
